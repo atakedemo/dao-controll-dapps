@@ -1,7 +1,6 @@
 {
   "name": "web3-dao-terminal",
   "version": "0.1.0",
-  "type": "module",
   "private": true,
   "scripts": {
     "dev": "next dev",
