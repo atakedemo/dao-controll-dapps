@@ -6,11 +6,11 @@ import { readFileSync } from "fs";
   try {
     const editionDropAddress = await sdk.deployer.deployEditionDrop({
       // コレクションの名前（あなたの作成する DAO の名前に入れ替えてください）
-      name: "Tokyo Sauna Collective",
+      name: "Bamb00 DAO Collective",
       // コレクションの説明（同じく書き換えてください）
-      description: "A DAO for sauna enthusiasts in Tokyo",
+      description: "A DAO for resolving social problem",
       // コレクションのアイコンとなる画像（ローカルの画像を参照すること）
-      image: readFileSync("src/scripts/assets/test.jpg"),
+      image: readFileSync("src/scripts/assets/sample.png"),
       // NFT の販売による収益を受け取るアドレスを設定
       // ドロップに課金をしたい場合は、ここに自分のウォレットアドレスを設定します
       // 今回は課金設定はないので、0x0 のアドレスで渡す
