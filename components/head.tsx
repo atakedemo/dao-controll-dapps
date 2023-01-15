@@ -7,7 +7,7 @@ export default function HeadComponent(): JSX.Element {
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       <meta name="theme-color" content="#000000" />
 
-      <title>DAO Terminal | Let's Play Web3.0!!!!</title>
+      <title>DAO Terminal | Enjoy Web3.0!!!!</title>
       <meta name="title" content="Create a DAO tool from scratch" />
       <meta name="description" content="TypeScript + React.js + NEXT.js + Thirdweb + Vercel 👉 Ethereum Network 上でオリジナルの DAO を運営しよう🤝" />
 
